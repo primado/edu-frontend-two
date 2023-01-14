@@ -40,7 +40,7 @@ $text-blue: #1a33bd;
 }
 
 .nav-brand a {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #000;
     text-decoration: none;
@@ -52,11 +52,11 @@ $text-blue: #1a33bd;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     color: $text-gray;
+    font-size: 1.5em;
 
 }
 
 .content__404 {
-    border: 1px solid #000;
     padding: 3em 5em;
     font-family: 'Raleway', sans-serif;
 }
@@ -74,7 +74,7 @@ $text-blue: #1a33bd;
 .container 
 .text {
     width: 100%;
-    border: 2px solid #000;
+   
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -100,9 +100,7 @@ $text-blue: #1a33bd;
     margin-bottom: 1rem;
 }
 
-.content__404 .hero-img {
-    border: 2px solid #000;
-}
+
 
 .content__404 .hero-img img {
     width: 100%;
@@ -121,7 +119,7 @@ $text-blue: #1a33bd;
 .container 
 .text-two a {
     display: flex;
-    border: 2px solid #000;
+    
     justify-content: center;
     align-items: center;
     color: $text-gray;
@@ -159,7 +157,6 @@ $text-blue: #1a33bd;
     .container 
     .text {
         width: 100%;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
 
@@ -230,7 +227,6 @@ $text-blue: #1a33bd;
     .container 
     .text {
         width: 100%;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
     }
@@ -263,7 +259,6 @@ $text-blue: #1a33bd;
     .container 
     .text-two a {
         display: flex;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
         color: $text-gray;
@@ -294,7 +289,6 @@ $text-blue: #1a33bd;
     .container 
     .text {
         width: 100%;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
     }
@@ -327,7 +321,6 @@ $text-blue: #1a33bd;
     .container 
     .text-two a {
         display: flex;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
         color: $text-gray;
@@ -358,7 +351,6 @@ $text-blue: #1a33bd;
     .container 
     .text {
         width: 100%;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
     }
@@ -391,7 +383,6 @@ $text-blue: #1a33bd;
     .container 
     .text-two a {
         display: flex;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
         color: $text-gray;
@@ -422,7 +413,6 @@ $text-blue: #1a33bd;
     .container 
     .text {
         width: 100%;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
     }
@@ -455,7 +445,6 @@ $text-blue: #1a33bd;
     .container 
     .text-two a {
         display: flex;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
         color: $text-gray;
@@ -486,7 +475,6 @@ $text-blue: #1a33bd;
     .container 
     .text {
         width: 100%;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
     }
@@ -519,7 +507,6 @@ $text-blue: #1a33bd;
     .container 
     .text-two a {
         display: flex;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
         color: $text-gray;
@@ -531,150 +518,7 @@ $text-blue: #1a33bd;
 
 /** 2560px **/
 
-@media screen and (max-width: 2560px) {
-    .nav {
-        padding: 2.5rem 10rem;
-    }
 
-    .nav-brand a {
-        font-size: 3rem;
-    }
-
-    .nav-list .nav-item {
-        font-size: 2rem;
-    }
-
-    .content__404 {
-        padding: 2em 2em;
-    }
-
-    .content__404
-    .container {
-        flex-direction: row;
-        
-    }
-
-    .content__404
-    .container 
-    .text {
-        width: 100%;
-        border: 1px solid #000;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .content__404
-    .container
-    .text h1 {
-        text-align: start;
-        font-size: 8em;
-    }
-
-    .content__404
-    .container
-    .text p {
-        text-align: center;
-        font-size: 3em;
-    }
-
-    .content__404
-    .container 
-    .text-two {
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-top: 1rem;
-    }
-
-    .content__404
-    .container 
-    .text-two a {
-        display: flex;
-        border: 1px solid #000;
-        justify-content: center;
-        align-items: center;
-        color: $text-gray;
-        font-weight: 500;
-        text-decoration: none;
-        font-size: 2.3em;
-    }
-
-}
-
-
-/** 1440px **/
-
-@media screen and (max-width: 1440px) {
-    .nav {
-        padding: 2.5rem 5rem;
-    }
-
-    .nav-brand a {
-        font-size: 3rem;
-    }
-
-    .nav-list .nav-item {
-        font-size: 2rem;
-    }
-
-    .content__404 {
-        padding: 2em 2em;
-    }
-
-    .content__404
-    .container {
-        flex-direction: row;
-        
-    }
-
-    .content__404
-    .container 
-    .text {
-        width: 100%;
-        border: 1px solid #000;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .content__404
-    .container
-    .text h1 {
-        text-align: start;
-        font-size: 3.5em;
-    }
-
-    .content__404
-    .container
-    .text p {
-        text-align: start;
-        font-size: 2em;
-    }
-
-    .content__404
-    .container 
-    .text-two {
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-top: 1rem;
-    }
-
-    .content__404
-    .container 
-    .text-two a {
-        display: flex;
-        border: 1px solid #000;
-        justify-content: center;
-        align-items: center;
-        color: $text-gray;
-        font-weight: 500;
-        text-decoration: none;
-        font-size: 1.2em;
-    }
-
-}
 
 /** 775px **/
 
@@ -705,7 +549,6 @@ $text-blue: #1a33bd;
     .container 
     .text {
         width: 100%;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
     }
@@ -738,7 +581,6 @@ $text-blue: #1a33bd;
     .container 
     .text-two a {
         display: flex;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
         color: $text-gray;
@@ -777,7 +619,6 @@ $text-blue: #1a33bd;
     .container 
     .text {
         width: 100%;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
     }
@@ -810,7 +651,6 @@ $text-blue: #1a33bd;
     .container 
     .text-two a {
         display: flex;
-        border: 1px solid #000;
         justify-content: center;
         align-items: center;
         color: $text-gray;
