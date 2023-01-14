@@ -53,7 +53,8 @@ img, picture, svg, video {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  gap: 2rem;
 }
 
 .content__404 .container .text {
@@ -109,4 +110,95 @@ img, picture, svg, video {
   margin-right: 0.5rem;
 }
 
+/* Media Queries */
+/** 412px **/
+@media screen and (max-width: 412px) {
+  .nav {
+    padding: 1rem 2rem;
+  }
+  .content__404 {
+    padding: 2em 2em;
+  }
+  .content__404 .container {
+    flex-direction: column-reverse;
+  }
+  .content__404 .container .text {
+    width: 100%;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+  }
+  .content__404 .container .text h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: #1a33bd;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .content__404 .container .text p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1a33bd;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .content__404 .container .text-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .content__404 .container .text-two a {
+    display: flex;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+    color: #717784;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
+/** 414px **/
+@media screen and (max-width: 420px) {
+  .nav {
+    padding: 1rem 2rem;
+  }
+  .content__404 {
+    padding: 2em 2em;
+  }
+  .content__404 .container {
+    flex-direction: column-reverse;
+  }
+  .content__404 .container .text {
+    width: 100%;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+  }
+  .content__404 .container .text h1 {
+    text-align: center;
+    font-size: 3.5em;
+  }
+  .content__404 .container .text p {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .content__404 .container .text-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .content__404 .container .text-two a {
+    display: flex;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+    color: #717784;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
 /*** End 404 Page ***//*# sourceMappingURL=styles.css.map */
