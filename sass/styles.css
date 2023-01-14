@@ -446,4 +446,29 @@ img, picture, svg, video {
     font-size: 1em;
   }
 }
-/*** End 404 Page ***//*# sourceMappingURL=styles.css.map */
+/*** End 404 Page ***/
+/*** Login Page ***/
+.login-body {
+  background-color: #e8e8f2;
+}
+
+.login-section {
+  background-color: #fff;
+  padding: 2em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .brand-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.login-body {
+  background-color: #fff;
+}
+
+/*** End Login Page ***//*# sourceMappingURL=styles.css.map */
