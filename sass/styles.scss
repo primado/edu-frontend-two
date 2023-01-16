@@ -916,6 +916,7 @@ form .form__group_btn
     text-decoration: none;
     font-weight: 600;
     color: $text-blue;
+    padding: .2em;
 
 }
 
@@ -926,5 +927,197 @@ form .form__group_btn
     color: $link-hover;
 }
 
+
+/*** Media Queries ***/
+
+/*** 320px ***/
+
+@media screen and (max-width: 325px) {
+    
+    .login-body
+    .login-section {
+        padding: 2em 1.8em;
+        padding-bottom: 4em !important;
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+
+    .login-section .container
+    .brand-logo h1 {
+        font-size: 1em;
+    }
+
+    .login-section .container
+    .login__container .login-heading h1 {
+        font-size: 1.8em;
+    }
+
+    .login-section .container
+    .login__container .login-heading p {
+        font-size: .95em;
+    }
+
+    .login-section .container
+    form .form__group input {
+        padding: .6em .9em;
+    }
+
+    .login-section .container 
+    form .form__group_check {
+        font-size: .8em;
+    }
+
+    .login-section .container 
+    form .form__group_check
+    .form__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-section .container
+    form .form__group_check label, .forgot-pword{
+        padding: .4em;
+    }
+
+    
+    .login-section .container 
+    form .form__group_btn
+    .btn-signin input {
+        font-size: 1em;
+    }
+
+    .login-section .container 
+    form .form__group_btn
+    .btn-g-signin .g-link {
+        font-size: 1em;
+        padding: .2em 0;
+    }
+
+}
+
+
+/*** 375px ***/
+
+@media screen and (max-width: 385px) {
+    
+    .login-body
+    .login-section {
+        padding: 2em 2em;
+        padding-bottom: 4em !important;
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+    .login-section .container
+    form .form__group input {
+        padding: .75em .9em;
+    }
+
+    .login-section .container 
+    form .form__group_check
+    .form__left input {
+        margin-right: .2em;
+    }
+
+    .login-section .container 
+    form .form__group_btn
+    .btn-signin input {
+        font-size: 1.2em;
+    }
+
+    .login-section .container 
+    form .form__group_btn
+    .btn-g-signin .g-link {
+        font-size: 1.1em;
+        padding: .3em 0;
+    }
+
+    .login-section .container 
+    form .form__group_check
+    .form__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+/*** 425px ***/
+
+@media screen and (max-width: 435px) {
+
+    .login-body
+    .login-section {
+        padding: 2em 1em;
+        padding-bottom: 4em !important;
+        width: 100vw;
+        max-width: 100vw;
+    }
+    
+    .login-section .container 
+    form .form__group_check
+    .form__left input {
+        margin-right: .2em;
+    }
+
+    .login-section .container 
+    form .form__group_check
+    .form__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .login-section .container 
+    form .form__group_btn
+    .btn-signin input {
+        font-size: 1.2em;
+    }
+
+    .login-section .container 
+    form .form__group_btn
+    .btn-g-signin .g-link {
+        font-size: 1.1em;
+        padding: .3em 0;
+    }
+}
+
+
+/** 320px **/
+
+@media screen and (max-width: 330px) {
+    
+    .login-body 
+    .login-section {
+        padding: 2em 2em;
+        padding-bottom: 4em !important;
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+    .login-section .container
+    form .form__group input {
+        padding: .62em .9em;
+    }
+
+    .login-section .container 
+    form .form__group_btn
+    .btn-signin input {
+        font-size: 1em;
+    }
+
+    .login-section .container 
+    form .form__group_btn
+    .btn-g-signin .g-link {
+        font-size: 1em;
+        padding: .2em 0;
+    }
+
+
+
+}
 
 /*** End Login Page ***/
