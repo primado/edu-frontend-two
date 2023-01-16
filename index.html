@@ -22,7 +22,7 @@
                     <h1>Edu</h1>
                 </div>
                 
-                <div class="login-body">
+                <div class="login__container">
                     <div class="login-heading">
                         <h1>Log in</h1>
                         <p>Welcome back! Please enter your details.</p>
@@ -39,27 +39,30 @@
                             <input type="password" name="password" id="password" placeholder="Enter your password">
                         </div>
 
-                        <div class="form__group">
+                        <div class="form__group_check">
                             <div class="form__left">
                                 <input type="checkbox" name="remember" id="remember">
                                 <label for="remember">Remember me</label>
                             </div>
                             <div class="form__right">
-                                <a href="#">Forgot password?</a>
+                                <a class="forgot-pword" href="#">Forgot password?</a>
                             </div>
                         </div>
 
-                        <div class="form__group">
+                        <div class="form__group_btn">
                             <div class="btn-signin">
                                 <input type="submit" name="submit" value="Sign in">
                             </div>
                             <div class="btn-g-signin">
-                                <input type="submit" name="submit" value="Sign in with Google">
+                                <a class="g-link" href="#">
+                                <img class="g-icon" src="./images/icon-google.svg" alt="google logo">
+                                Sign in with Google</a>
                             </div>
                         </div>
 
-                        <div class="form__group">
-                            <p>Don't have an account? <a href="#">Sign up</a></p>
+                        <div class="form__group_account">
+                            <p>Don't have an account? <a href="#">
+                            Sign up</a></p>
                         </div>
 
 

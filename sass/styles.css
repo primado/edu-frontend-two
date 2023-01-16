@@ -450,25 +450,174 @@ img, picture, svg, video {
 /*** Login Page ***/
 .login-body {
   background-color: #e8e8f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .login-section {
   background-color: #fff;
-  padding: 2em 2em;
+  padding: 2em 4em;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  border-radius: 0.7em;
+  max-width: 436px;
 }
 
-.container .brand-logo {
+.login-section .container .brand-logo {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 1.39em;
+}
+
+.login-section .container .login__container .login-heading {
+  font-family: "Raleway", sans-serif;
+  margin: 1.5em 0;
+}
+
+.login-section .container .login__container .login-heading h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 0.35em;
+}
+
+.login-section .container .login__container .login-heading p {
+  font-size: 1em;
+  font-weight: 500;
+  color: #717784;
+}
+
+.login-section .container .brand-logo {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 1rem;
 }
 
-.login-body {
-  background-color: #fff;
+.login-section .container form .form__group {
+  position: relative;
+  margin-bottom: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section .container form .form__group input {
+  all: unset;
+  border: 1.7px solid #717784;
+  padding: 0.8em 1em;
+  border-radius: 0.5em;
+  margin-top: 0.3em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.login-section .container form .form__group input:focus {
+  outline: none;
+  border: 3px solid #1a33bd;
+  transition: all 3ms ease-in-out;
+}
+
+.login-section .login__container {
+  font-family: "Raleway", sans-serif;
+}
+
+.login-section .container form .form__group label {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.login-section .container form .form__group_check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.login-section .container form .form__group_check label {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.login-section .container form .form__group_check .forgot-pword {
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  color: #1a33bd;
+}
+
+.login-section .container form .form__group_check .forgot-pword:hover {
+  color: #3e44fe;
+}
+
+.login-section .container form .form__group_btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section .container form .form__group_btn .btn-signin input {
+  margin-bottom: 1em;
+  background-color: #1a33bd;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  padding: 0.5em 0;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1.25em;
+}
+
+.login-section .container form .form__group_btn .btn-signin input:hover {
+  background-color: #3e44fe;
+}
+
+.login-section .container form .form__group_btn .btn-g-signin {
+  margin-bottom: 1em;
+  display: flex;
+}
+
+.login-section .container form .form__group_btn .btn-g-signin .g-link {
+  border: 2px solid #717784;
+  color: #000;
+  padding: 0.33em 0;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-section .container form .form__group_btn .btn-g-signin .g-link:hover {
+  color: #fff;
+  transition: all 5ms ease-in-out;
+  background-color: #000000;
+}
+
+.login-section .container form .form__group_btn .btn-g-signin .g-link .g-icon {
+  margin-right: 0.3em;
+  width: 1.7em;
+}
+
+.login-section .container .login__container .form__group_account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-section .container .login__container .form__group_account a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1a33bd;
+}
+
+.login-section .container .login__container .form__group_account a:hover {
+  color: #3e44fe;
 }
 
 /*** End Login Page ***//*# sourceMappingURL=styles.css.map */
