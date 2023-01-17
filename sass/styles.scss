@@ -152,6 +152,8 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
 
 /* Media Queries */
 
+
+
 /** 412px **/
 
 @media screen and (max-width: 412px) {
@@ -222,6 +224,10 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
     }
 }
 
+/*** End 412px ***/
+
+
+
 /** 414px **/
 
 @media screen and (max-width: 420px) {
@@ -283,6 +289,9 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
     }
 
 }
+
+/*** End 414px ***/
+
 
 /** 440px **/
 
@@ -346,6 +355,10 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
 
 }
 
+/*** 440px ***/
+
+
+
 /** 820px **/
 
 @media screen and (max-width: 820px) {
@@ -408,7 +421,11 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
 
 }
 
-/** 380px **/
+/*** End 820px ***/
+
+
+
+/*** 380px ***/
 
 @media screen and (max-width: 380px) {
     .nav {
@@ -469,6 +486,10 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
     }
 
 }
+
+/*** End 380 ***/
+
+
 
 /** 1024px **/
 
@@ -532,7 +553,7 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
 
 }
 
-/** 2560px **/
+/*** End 1024px  ***/
 
 
 
@@ -606,6 +627,10 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
 
 }
 
+/*** End 775px ***/
+
+
+
 /** 330px **/
 
 @media screen and (max-width: 330px) {
@@ -677,8 +702,13 @@ $shadow-bg: 5px 6px 30px -3px rgba(112,106,112,1);
 
 }
 
+/*** End 330px ***/
+
 
 /*** End 404 Page ***/
+
+
+
 
 /*** Login Page ***/
 
@@ -998,6 +1028,8 @@ form .form__group_btn
 
 }
 
+/*** End 320px ***/
+
 
 /*** 375px ***/
 
@@ -1046,6 +1078,10 @@ form .form__group_btn
     }
 }
 
+/*** End 375px ***/
+
+
+
 /*** 425px ***/
 
 @media screen and (max-width: 435px) {
@@ -1087,6 +1123,9 @@ form .form__group_btn
     }
 }
 
+/*** End 425px ***/
+
+
 
 /** 320px **/
 
@@ -1121,6 +1160,9 @@ form .form__group_btn
 
 }
 
+/*** End 320px ***/
+
+
 /*** 414px ***/
 
 @media screen and (max-width: 424px) {
@@ -1154,6 +1196,8 @@ form .form__group_btn
     }
 }
 
+/*** End 414px ***/
+
 /*** 428px ***/
 
 @media screen and (max-width: 435px) {
@@ -1186,6 +1230,8 @@ form .form__group_btn
         padding: .2em 0;
     }
 }
+
+/*** 428px ***/
 
 /*** End Login Page ***/
 
@@ -1351,6 +1397,7 @@ form .forgot-btn a:hover {
 
 
 /*** 414px ***/
+
 @media screen and (max-width: 425px) {
 
     .forgot-body .forgot-section {
@@ -1367,6 +1414,8 @@ form .forgot-btn a:hover {
     } 
 
 }
+
+/*** End 414px ***/
 
 
 /*** 428px ***/
@@ -1387,6 +1436,8 @@ form .forgot-btn a:hover {
     } 
 
 }
+
+/*** End 428px ***/
 
 
 /*** End Forgot Password Page ***/
