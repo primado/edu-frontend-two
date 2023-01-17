@@ -1062,7 +1062,7 @@ img, picture, svg, video {
     width: 100vw;
     max-width: 100vw;
     height: 100vh;
-    padding: 7em 3em;
+    padding: 7em 2.5em;
   }
   .reset-section .reset-container .reset-title p {
     text-align: center;
@@ -1076,7 +1076,7 @@ img, picture, svg, video {
     width: 100vw;
     max-width: 100vw;
     height: 100vh;
-    padding: 7em 3em;
+    padding: 7em 2.5em;
   }
   .reset-section .reset-container .reset-title p {
     text-align: center;
