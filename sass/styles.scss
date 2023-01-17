@@ -1389,6 +1389,150 @@ form .forgot-btn a:hover {
 }
 
 
-
-
 /*** End Forgot Password Page ***/
+
+
+
+/*** Reset Password Page ***/
+
+
+.reset-body {
+    background-color: $bg-body;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reset-body .reset-section {
+    background-color: #fff;
+    padding: 3em 3em;
+    font-family: 'Raleway', sans-serif;
+    border-radius: .6em;
+    font-family: 'Raleway', sans-serif;
+    width: 28em;
+    max-width: 28em;
+
+
+
+}
+
+.reset-form .reset-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.reset-form .reset-img img {
+    width: 2.5em;
+}
+
+.reset-section .reset-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.reset-section .reset-title h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.reset-section .reset-title p {
+    font-size: 1em;
+    font-weight: 600;
+    color: $text-gray;
+}
+
+.reset-section .reset__form 
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.reset-section .reset__form 
+.form__group .form__label {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.reset-section .reset__form 
+.form__group .form__input {
+    all: unset;
+    border: 2px solid $text-gray;
+    font-family: 'Inter', sans-serif;
+    border-radius: .5em;
+    height: 3em;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0 .8em;
+
+}
+
+.reset-section .reset__form 
+.form__group .form__input:focus {
+    outline: none;
+    border: 3px solid $text-blue;
+    transition: all 3ms ease-in-out;
+}
+
+
+.reset-section .reset__form 
+.form__group .reset-btn {
+    all: unset;
+    background-color: $bg-lavender;
+    text-align: center;
+    border-radius: .5em;
+    padding: .5em 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.reset-section .reset__form 
+.form__group .reset-btn:hover {
+    background-color: $bg-lavender-100;
+    transition: all 3ms ease-in-out;
+}
+
+.reset-section .reset-form 
+.reset-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.reset-section .reset-form 
+.reset-login a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    text-decoration: none;
+    color: $text-gray;
+    font-weight: 500;
+    padding: .3em;
+    
+}
+
+.reset-section .reset-form 
+.reset-login a:active {
+    color: $link-active
+}
+
+
+
+.reset-section .reset-form 
+.reset-login img {
+    width: 1.5em;
+    margin-right: .5em;
+}
+
+/*** End Reset Password Page ***/
