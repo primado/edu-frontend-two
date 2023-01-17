@@ -986,6 +986,10 @@ img, picture, svg, video {
   margin-bottom: 2em;
 }
 
+.reset-section .reset__form .form__group:last-child {
+  margin-bottom: 0;
+}
+
 .reset-section .reset__form .form__group .form__label {
   font-size: 1em;
   font-weight: 600;
@@ -1029,7 +1033,7 @@ img, picture, svg, video {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1.5em;
+  margin-top: 0em;
 }
 
 .reset-section .reset-form .reset-login a {
@@ -1052,4 +1056,32 @@ img, picture, svg, video {
   margin-right: 0.5em;
 }
 
+/*** 412px ***/
+@media screen and (max-width: 425px) {
+  .reset-body .reset-section {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    padding: 7em 3em;
+  }
+  .reset-section .reset-container .reset-title p {
+    text-align: center;
+    font-size: 1.1em;
+  }
+}
+/*** End 412px ***/
+/*** 428px ***/
+@media screen and (max-width: 435px) {
+  .reset-body .reset-section {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    padding: 7em 3em;
+  }
+  .reset-section .reset-container .reset-title p {
+    text-align: center;
+    font-size: 1.1em;
+  }
+}
+/*** End 428px ***/
 /*** End Reset Password Page ***//*# sourceMappingURL=styles.css.map */
