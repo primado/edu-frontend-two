@@ -465,13 +465,14 @@ img, picture, svg, video {
 
 .login-section {
   background-color: #fff;
-  padding: 2em 4em;
+  padding: 2em 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border-radius: 0.7em;
-  max-width: 436px;
+  width: 28em;
+  max-width: 30em;
 }
 
 .login-section .container .brand-logo {
@@ -1099,4 +1100,145 @@ img, picture, svg, video {
   }
 }
 /*** End 428px ***/
-/*** End Reset Password Page ***//*# sourceMappingURL=styles.css.map */
+/*** End Reset Password Page ***/
+/*** Register Page ***/
+.register-body {
+  background-color: #e8e8f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-body .register-section {
+  background-color: #fff;
+  padding: 3em 3em;
+  font-family: "Raleway", sans-serif;
+  border-radius: 0.6em;
+  font-family: "Raleway", sans-serif;
+  width: 28em;
+  max-width: 28em;
+  margin: 3em 0;
+}
+
+.register-section .register-form .brand-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.register-section .register-form .register-title {
+  display: flex;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.register-section .register-form .register-title h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.register-section .register-form .register-title p {
+  font-size: 1em;
+  font-weight: 500;
+  color: #717784;
+}
+
+.register-section .register-form .register__form .form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.register-section .register-form .register__form .form__group .form__label {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.register-section .register-form .register__form .form__group .form__input {
+  all: unset;
+  border: 2px solid #717784;
+  font-family: "Inter", sans-serif;
+  border-radius: 0.5em;
+  height: 2.5em;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0 0.8em;
+}
+
+.register-section .register-form .register__form .form__group .form__input:focus {
+  border: 2px solid #1a33bd;
+}
+
+.register-section .register-form .register__form .form__group .register-btn {
+  all: unset;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  padding: 0.7em 0;
+  border-radius: 0.5em;
+  margin-top: 1em;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.register-section .register-form .register__form .form__group .register-btn:hover {
+  border: 2px solid #717784;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 3ms ease-in-out;
+}
+
+.register-section .register-form .register__form .form__group .google-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 0.7em 0;
+  border: 2px solid #717784;
+  border-radius: 0.5em;
+  font-size: 1em;
+}
+
+.register-section .register-form .register__form .form__group .google-btn:hover {
+  background-color: #1a33bd;
+  color: #fff;
+  transition: background-color 3ms ease-in-out;
+}
+
+.register-section .register-form .register__form .form__group .google-btn img {
+  width: 1.5em;
+  margin-right: 0.5em;
+}
+
+.register-section .register-form .register__form .register-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.register-section .register-form .register__form .register-login a {
+  padding: 0.5em;
+  color: #717784;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-section .register-form .register__form .register-login a:active {
+  color: #FB8500;
+}
+
+/*** End Register Page ***//*# sourceMappingURL=styles.css.map */
