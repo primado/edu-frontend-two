@@ -803,6 +803,8 @@ img, picture, svg, video {
   padding: 3em 3em;
   font-family: "Raleway", sans-serif;
   border-radius: 0.6em;
+  width: 28em;
+  max-width: 30em;
 }
 
 .forgot-section .forgot-container {
@@ -962,7 +964,7 @@ img, picture, svg, video {
   border-radius: 0.6em;
   font-family: "Raleway", sans-serif;
   width: 28em;
-  max-width: 28em;
+  max-width: 30em;
 }
 
 .reset-form .reset-img {
