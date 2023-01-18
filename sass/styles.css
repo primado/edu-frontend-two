@@ -1114,9 +1114,8 @@ img, picture, svg, video {
   padding: 3em 3em;
   font-family: "Raleway", sans-serif;
   border-radius: 0.6em;
-  font-family: "Raleway", sans-serif;
   width: 28em;
-  max-width: 28em;
+  max-width: 30em;
   margin: 3em 0;
 }
 
@@ -1237,8 +1236,44 @@ img, picture, svg, video {
   font-weight: 600;
 }
 
+.register-section .register-form .register__form .register-login a:hover {
+  color: #1a33bd;
+}
+
 .register-section .register-form .register__form .register-login a:active {
   color: #FB8500;
 }
 
+/*** 412px ***/
+@media screen and (max-width: 425px) {
+  .register-body .register-section {
+    background-color: #fff;
+    margin: 0 !important;
+    height: 100%;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 5em 2.5em;
+  }
+}
+/*** End 412px ***/
+/*** 360 ***/
+@media screen and (max-width: 360px) {
+  .register-body .register-section {
+    background-color: #fff;
+    width: 100vw;
+    height: 100%;
+    max-width: 100vw;
+    margin: 0 !important;
+    padding: 5em 2em;
+  }
+}
+/*** End 360 ***/
+/*** 428px ***/
+@media screen and (max-width: 435px) {
+  .register-section {
+    padding: 5em 2.5em;
+    height: 100%;
+    margin: 0 !important;
+  }
+}
 /*** End Register Page ***//*# sourceMappingURL=styles.css.map */
